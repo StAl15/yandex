@@ -27,7 +27,7 @@
  @link https://contest.yandex.ru/algorithm2018/contest/8254/problems/A/
  */
 
-function f(bancnotes, coins, rPrice, dAutomat, count) {
+function f(bancnotes, coins, rPrice, dAutomat, count) { //банкноты/монеты/цена пива/остаток в автомате/счетчик
 
     bancnotes = bancnotes * 1_000_000; //по условию 1 банкнота это лям
 
